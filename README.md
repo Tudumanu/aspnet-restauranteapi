@@ -2,6 +2,11 @@
 
 Projeto com o CORS habilitado, verifique a configuração em *App_Start/WebApiConfig.cs*
 
+Principais arquivos criados:
+
+* Models/ > Garcom.cs, Pedido.cs, Restaurante.cs
+* Controllers/ > GarcomController.cs, PedidoController.cs, RestauranteController.cs
+
 ### Dicas Package Manager Console
 
 * Para habilitar mudanças no BD, use `Enable-Migrations -ContextProjectName WebAPIServices`
