@@ -20,6 +20,9 @@ $RECYCLE.BIN/
 # Visual Studio files
 *.sln
 .vs
+/bin
+/obj
+/App_Data
 
 # =========================
 # Operating System Files
