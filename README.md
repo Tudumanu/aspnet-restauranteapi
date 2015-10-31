@@ -5,7 +5,7 @@ Projeto com o CORS habilitado, verifique a configuração em *App_Start/WebApiConf
 ### Dicas Package Manager Console
 
 * Para habilitar mudanças no BD, use `Enable-Migrations -ContextProjectName WebAPIServices`
-** Isso irá criar o Migrations/Configuration.cs, altere o `AutomaticMigrationsEnabled` para `true`
+  * Isso irá criar o Migrations/Configuration.cs, altere o `AutomaticMigrationsEnabled` para `true`
 * Para alterar o BD, dentro do Console, digite: `Update-Database -Verbose` (-Force para forçar alteração que possa perder dados)
 
 #### Fontes de pesquisa:
