@@ -19,6 +19,7 @@ namespace WebAPIServices.Controllers
         // GET: api/Pedido
         public IQueryable<Pedido> GetPedidoes()
         {
+            db.Configuration.ProxyCreationEnabled = false;
             return db.Pedidoes;
         }
 
@@ -26,6 +27,7 @@ namespace WebAPIServices.Controllers
         [ResponseType(typeof(Pedido))]
         public IHttpActionResult GetPedido(int id)
         {
+            db.Configuration.ProxyCreationEnabled = false;
             Pedido pedido = db.Pedidoes.Find(id);
             if (pedido == null)
             {

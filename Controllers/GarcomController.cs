@@ -18,7 +18,8 @@ namespace WebAPIServices.Controllers
 
         // GET: api/Garcom
         public IQueryable<Garcom> GetGarcoms()
-        {
+        {            
+            db.Configuration.ProxyCreationEnabled = false;
             return db.Garcoms;
         }
 
@@ -26,6 +27,7 @@ namespace WebAPIServices.Controllers
         [ResponseType(typeof(Garcom))]
         public IHttpActionResult GetGarcom(int id)
         {
+            db.Configuration.ProxyCreationEnabled = false;
             Garcom garcom = db.Garcoms.Find(id);
             if (garcom == null)
             {
