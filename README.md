@@ -5,7 +5,7 @@ Projeto com o CORS habilitado, verifique a configuração em *App_Start/WebApiConf
 Principais arquivos criados:
 
 * Models/ > Garcom.cs, Pedido.cs, Restaurante.cs
-* Controllers/ > GarcomController.cs, PedidoController.cs, RestauranteController.cs
+* Controllers/ > GarcomController.cs, PedidoController.cs, RestauranteController.cs e RelatorioController.cs
 
 ### Dicas Package Manager Console
 
