@@ -1,6 +1,8 @@
 # A C# ASP.NET Web API 2 for a simple restaurant management with localDB
 
-Projeto com o CORS habilitado, verifique a configuraÁ„o em *App_Start/WebApiConfig.cs*
+Projeto com o CORS habilitado, verifique a configura√ß√£o em *App_Start/WebApiConfig.cs*
+
+ Para executar esta aplica√ß√£o, √© necess√°rio descompactar a pasta Bin na raiz do projeto. A pasta pode ser obtida neste link: https://drive.google.com/file/d/0B3EhAlFCLZLgVHpmUUk2WXcyRFU/view?usp=sharing
 
 Principais arquivos criados:
 
@@ -9,9 +11,9 @@ Principais arquivos criados:
 
 ### Dicas Package Manager Console
 
-* Para habilitar mudanÁas no BD, use `Enable-Migrations -ContextProjectName WebAPIServices`
-  * Isso ir· criar o Migrations/Configuration.cs, altere o `AutomaticMigrationsEnabled` para `true`
-* Para alterar o BD, dentro do Console, digite: `Update-Database -Verbose` (-Force para forÁar alteraÁ„o que possa perder dados)
+* Para habilitar mudan√ßas no BD, use `Enable-Migrations -ContextProjectName WebAPIServices`
+  * Isso ir√° criar o Migrations/Configuration.cs, altere o `AutomaticMigrationsEnabled` para `true`
+* Para alterar o BD, dentro do Console, digite: `Update-Database -Verbose` (-Force para for√ßar altera√ß√£o que possa perder dados)
 
 #### Fontes de pesquisa:
 
